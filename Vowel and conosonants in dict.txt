@@ -1,0 +1,8 @@
+d,s={},input()
+for i in s:
+  if i.isaplha():
+    if i.lower() in "aeiou":
+      d[i]="Vowel"
+    else:
+      d[i]="consonant"
+print(d)
